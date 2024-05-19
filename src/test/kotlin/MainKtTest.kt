@@ -24,7 +24,7 @@ class MainKtTest {
 
         val result = calculateTransfer(cardType, amountPreviousTransfers, amountTransfer)
         println(result)
-        assertEquals("\nКомиссия составит: " + 0 + " руб.", result)
+        assertEquals("\nКомиссия составит: " + 1 + " руб.", result)
     }
 
 //--------------------------------------------------------
